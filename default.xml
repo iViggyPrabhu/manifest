@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-  <default revision="refs/tags/android-10.0.0_r33"
+  <default revision="refs/tags/android-10.0.0_r25"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -13,6 +13,7 @@
 
   <include name="include/aosp_vanilla.xml" />
   <include name="include/bsp-celadon.xml" />
-  <include name="include/celadon-manifest.xml" />
+  <!-- Just addding line to check the commit -->
 
 </manifest>
+
